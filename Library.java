@@ -28,8 +28,8 @@ class Library {
 
     public static void main(String[] args) {
         Library l = new Library();
-        l.addBook(new Book("Java", "James", "001"));
-        l.addBook(new Book("Python", "Guido", "002"));
+        l.addBook(new Book("001", "James", "Java"));
+        l.addBook(new Book("002", "Guido", "Python"));
 
         l.displayBooks();
     }
